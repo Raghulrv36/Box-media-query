@@ -1,47 +1,57 @@
-<style>
-    .container{
-        background-color:white;
-        border: solid black 2px;
-        padding: 10px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .one{
-        height: 100px;
-        width: 100px;
-        background-color: red;
-    }
-    .two{
-        height: 100px;
-        width: 100px;
-        background-color: blue;
-    }
-    @media screen and (max-width:600px){
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+</head>
+<body>
+    <style>
+        .container{
+            background-color:white;
+            border: solid black 2px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
         .one{
-            border-radius: 100px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
         }
         .two{
-            display: none;
+            height: 100px;
+            width: 100px;
+            background-color: blue;
         }
-    }
-</style>
-
-
-<div class="container">
-    <div class="one">
+        @media screen and (max-width:600px){
+            .one{
+                border-radius: 100px;
+            }
+            .two{
+                display: none;
+            }
+        }
+    </style>
+    
+    
+    <div class="container">
+        <div class="one">
+        </div>
+        <div class="two">
+        </div>
+        <div class="one">
+        </div>
+        <div class="two">
+        </div>
+        <div class="one">
+        </div>
+        <div class="two">
+        </div>
+        <div class="one">
+        </div>
+        <div class="two">
+        </div>
     </div>
-    <div class="two">
-    </div>
-    <div class="one">
-    </div>
-    <div class="two">
-    </div>
-    <div class="one">
-    </div>
-    <div class="two">
-    </div>
-    <div class="one">
-    </div>
-    <div class="two">
-    </div>
-</div>
+</body>
+</html>
